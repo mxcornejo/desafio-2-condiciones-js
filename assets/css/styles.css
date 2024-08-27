@@ -1,0 +1,43 @@
+* {
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100, "YTLC" 500;
+}
+
+/* Ejercicio 1 */
+
+.border-color {
+  border: 2px solid red;
+}
+
+/* Ejercicio 2 */
+
+.container {
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.sticker {
+  display: block;
+  text-align: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+button {
+  background-color: rgb(0, 89, 255);
+  color: white;
+  text-transform: uppercase;
+  border: transparent;
+  padding: 10px 40px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
